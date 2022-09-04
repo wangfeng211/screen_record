@@ -1,0 +1,36 @@
+{
+  "name": "screen_record",
+  "version": "1.0.0",
+  "description": "A demo screen record on browser",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangfeng211/screen_record.git"
+  },
+  "keywords": [
+    "screen",
+    "record",
+    "mediaDevice",
+    "MediaRecorder"
+  ],
+  "author": "wangfeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangfeng211/screen_record/issues"
+  },
+  "homepage": "https://github.com/wangfeng211/screen_record#readme"
+}
